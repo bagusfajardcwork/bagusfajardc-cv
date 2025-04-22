@@ -1,0 +1,33 @@
+[
+    {
+        "biodata": {
+            "name": "Bagus Fajar Dwicahyo",
+            "nickname": "Bagus",
+            "birth": "04-Desember-1996",
+            "birthplace": "Jakarta",
+            "gender": "Laki-laki",
+            "status": "Menikah",
+            "birthFormat": "1996-12-04",
+            "job": "Programmer"
+        },
+        "pendidikan": {
+            "sma": {
+                "nama": "SMA Sejahtera 1 Depok",
+                "jurusan": "IPA",
+                "skor": ""
+            },
+            "universitas": {
+                "nama": "Universitas Gunadarma",
+                "jurusan": "Teknik Informatika",
+                "skor": "3.25"
+            }
+        },
+        "kontak": [
+            { "jenis": "WhatsApp", "kontak": "08222222" },
+            { "jenis": "E-mail", "kontak": "bagusfajardcwork@gmail.com" },
+            { "jenis": "Alamat", "kontak": "Jl. Kemiri Jaya II, Beji, Depok, Jawa Barat" }
+        ],
+        "tentang": "Halo, saya Bagus Fajar Dwicahyo biasa dipanggil Bagus, saya sudah beberapa tahun menjadi Programmer dan akan senang untuk terus berkembang dan belajar. Saat ini saya aktif dalam pembuatan atau pengembangan di Frontend, pernah juga menangani Backend dan aktif juga dibidang reporting untuk kebutuhan laporan data sesuai kebutuhan user."
+        
+    }
+]

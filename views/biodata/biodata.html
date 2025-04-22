@@ -1,0 +1,24 @@
+<p id="tentang"></p>
+<ul id="kontak"></ul>
+
+<script>
+    $.getJSON('../data/user.json', function(data) {
+        const response = data[0];
+        
+        const tentang = response.tentang;
+        $('#tentang').text(tentang);
+        
+        const kontak = response.kontak;
+        $('#kontak').empty();
+        $.each(kontak, function(index, item) {
+            // console.log(index, item);
+            
+        $('#kontak').append(`
+            <li>
+                <span class="title">${item.jenis}</span>
+                <span class="value">${item.kontak}</span>
+            </li>
+        `);
+        });
+    });
+</script>
