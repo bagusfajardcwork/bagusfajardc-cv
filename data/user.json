@@ -11,21 +11,79 @@
             "job": "Programmer"
         },
         "pendidikan": {
-            "sma": {
-                "nama": "SMA Sejahtera 1 Depok",
-                "jurusan": "IPA",
-                "skor": ""
-            },
             "universitas": {
+                "no": 3,
                 "nama": "Universitas Gunadarma",
                 "jurusan": "Teknik Informatika",
-                "skor": "3.25"
+                "skor": "3.25",
+                "tingkat": "Universitas",
+                "tahun": "2015-2019"
+            },
+            "sma": {
+                "no": 2,
+                "nama": "SMA Sejahtera 1 Depok",
+                "jurusan": "IPA",
+                "skor": "",
+                "tingkat": "Sekolah Menengah Pertama",
+                "tahun": "2012-2015"
+            },
+            "smp": {
+                "no": 1,
+                "nama": "SMPN 253 Jakarta",
+                "jurusan": "",
+                "skor": "",
+                "tingkat": "Sekolah Menengah Pertama",
+                "tahun": "2009-2012"
             }
         },
         "kontak": [
-            { "jenis": "WhatsApp", "kontak": "08222222" },
-            { "jenis": "E-mail", "kontak": "bagusfajardcwork@gmail.com" },
-            { "jenis": "Alamat", "kontak": "Jl. Kemiri Jaya II, Beji, Depok, Jawa Barat" }
+            { "jenis": "WhatsApp", "kontak": "08222222", "icon": "lnr lnr-phone-handset" },
+            { "jenis": "E-mail", "kontak": "bagusfajardcwork@gmail.com", "icon": "lnr lnr-envelope" },
+            { "jenis": "Alamat", "kontak": "Jl. Kemiri Jaya II, Beji, Depok, Jawa Barat", "icon": "lnr lnr-map-marker" }
+        ],
+        "keahlian": [
+            { "nama": "VueJS" },
+            { "nama": "HTML / CSS" },
+            { "nama": "Jasper Report" },
+            { "nama": "Javascript" },
+            { "nama": "PosgreSQL / MySQL" }
+        ],
+        "pekerjaan": [
+            { 
+                "no": 1,
+                "jabatan": "Jr. Programmer",
+                "tahun": "Agt. 2020 - Agt. 2021",
+                "jobdesk": [
+                    {
+                        "no": 1,
+                        "keterangan": "Bekerja sama dengan divisi marketing untuk pengembangan atau pembuatan company profile menggunakan PHP / HTML / CSS."
+                    }
+                ]
+            },
+            { 
+                "no": 2,
+                "jabatan": "Programmer",
+                "tahun": "Feb. 2022 - Sekarang",
+                "jobdesk": [
+                    {
+                        "no": 1,
+                        "keterangan": "Pengembangan Rekam Medis Elektronik (RME) SIMRSGOS2 (Development Internal),"
+                    },
+                    {
+                        "no": 2,
+                        "keterangan": "Pengambangan dan pembuatan SIMRSF ( RME Internal Fatmawati),"
+                    },
+                    {
+                        "no": 3,
+                        "keterangan": "Pengembangan Website Fatmawati,"
+                    },
+                    {
+                        "no": 4,
+                        "keterangan": "Pembuatan design dan query reporting atau cetakan di RME RS. Fatmawati."
+                    }
+                    
+                ]
+            }
         ],
         "tentang": "Halo, saya Bagus Fajar Dwicahyo biasa dipanggil Bagus, saya sudah beberapa tahun menjadi Programmer dan akan senang untuk terus berkembang dan belajar. Saat ini saya aktif dalam pembuatan atau pengembangan di Frontend, pernah juga menangani Backend dan aktif juga dibidang reporting untuk kebutuhan laporan data sesuai kebutuhan user."
         

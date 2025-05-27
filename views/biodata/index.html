@@ -1,0 +1,33 @@
+
+<script>
+    $.getJSON('../data/user.json', function(data) {
+        const response = data[0];
+
+        const pendidikan = response.pendidikan
+        $('#pendidikan').empty();
+        $.each(pendidikan, function(index, item) {
+            $('#pendidikan').append(`
+                <div class="timeline-item clearfix">
+                    <div class="left-part">
+                        <h5 class="item-period">${item.tahun}</h5>
+                        <span class="item-company">${item.tingkat}</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="right-part">
+                        <h4 class="item-title">${item.nama}</h4>
+                        <p>Nilai Akhir : ${item.skor}</p>
+                    </div>
+                </div>
+            `);
+        });
+
+        const keahlian = response.keahlian
+         $('#keahlian').empty();
+         $.each(keahlian, function(index, item) {
+            $('#keahlian').append(`
+                <li>${item.nama}</li>
+            `);
+        });
+        
+    });
+</script>

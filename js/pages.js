@@ -10,8 +10,9 @@
     });
 
     $(document).ready(function() {
-        $('#tentang').load('./views/biodata/biodata.html');
-        $('#kontak').load('./views/biodata/biodata.html');
+        $('#pendidikan').load('./views/biodata/index.html');
+        $('#keahlian').load('./views/biodata/index.html');
+        $('#kontak').load('./views/kontak/index.html');
     });
     
 })(jQuery);
