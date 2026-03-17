@@ -2,10 +2,6 @@ function hitungUmur(tgllahir) {
   const hariIni = new Date();
   const lahir = new Date(tgllahir);
 
-//   if (lahir > hariIni) {
-//     return "Tanggal lahir tidak valid (masa depan)";
-//   }
-
   // Hitung total selisih dalam milidetik
   const selisihMs = hariIni - lahir;
 
@@ -19,4 +15,13 @@ function hitungUmur(tgllahir) {
 
   return `${tahun} tahun, ${sisaHari} hari`;
 }
+
+function yearNow() {
+  const hariIni = new Date();
+  const tahun = hariIni.getFullYear();
+  
+  return `bagusfajardc © ${tahun} All rights reserved.`;
+}
+
 document.getElementById("umur").textContent = hitungUmur('1996-12-04');
+document.getElementById("copyrights").textContent = yearNow();

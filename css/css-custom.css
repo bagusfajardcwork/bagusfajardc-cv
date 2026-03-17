@@ -1,0 +1,12 @@
+.logo-wrapper {
+  height: 100px;            /* tinggi seragam */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-img {
+  max-height: 80px;
+  max-width: 100%;
+  object-fit: contain;      /* biar tidak gepeng */
+}
